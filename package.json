@@ -1,0 +1,31 @@
+{
+  "name": "mongo-migrator",
+  "version": "1.0.0",
+  "description": "Simple library to manage mongo migrations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/triptease/mongo-migrator.git"
+  },
+  "keywords": [
+    "Mongo",
+    "Migrate"
+  ],
+  "author": "Triptease",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/triptease/mongo-migrator/issues"
+  },
+  "homepage": "https://github.com/triptease/mongo-migrator#readme",
+  "dependencies": {
+    "mongodb": "^2.2.26"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "mongo-in-memory": "0.0.5"
+  }
+}
